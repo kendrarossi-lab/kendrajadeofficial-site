@@ -6,7 +6,9 @@
   <title>Kendra Jade | Speak No Evil, Novel and Soundtrack</title>
   <meta name="description" content="Speak No Evil by Kendra Jade: a literary afterlife novel and the rock opera soundtrack album it came from. Ebook, paperback and album out January 15, 2027.">
   <meta name="author" content="Kendra Jade">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://kendrajadeofficial.com/">
+  <link rel="preload" as="image" type="image/webp" imagesrcset="images/cover-360.webp 360w, images/cover-540.webp 540w, images/cover-800.webp 800w" imagesizes="(min-width: 640px) 16.5rem, (max-width: 360px) 13.5rem, 15.5rem" fetchpriority="high">
 
   <meta property="og:site_name" content="Kendra Jade | Speak No Evil, Novel and Soundtrack">
   <meta property="og:title" content="Kendra Jade | Speak No Evil, Novel and Soundtrack">
@@ -71,7 +73,47 @@
         },
         "datePublished": "2027-01-15",
         "inLanguage": "en",
-        "bookFormat": ["EBook", "Paperback"],
+        "bookFormat": ["https://schema.org/EBook", "https://schema.org/Paperback"],
+        "numberOfPages": 321,
+        "workExample": [
+          {
+            "@type": "Book",
+            "@id": "https://kendrajadeofficial.com/#ebook",
+            "name": "Speak No Evil (ebook)",
+            "bookFormat": "https://schema.org/EBook",
+            "datePublished": "2027-01-15",
+            "inLanguage": "en",
+            "author": { "@id": "https://kendrajadeofficial.com/#kendra-jade" },
+            "publisher": { "@id": "https://kendrajadeofficial.com/#krossi-culture" },
+            "offers": {
+              "@type": "Offer",
+              "price": "6.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/PreOrder",
+              "availabilityStarts": "2027-01-15",
+              "url": "https://kendrajadeofficial.com/shop/"
+            }
+          },
+          {
+            "@type": "Book",
+            "@id": "https://kendrajadeofficial.com/#paperback",
+            "name": "Speak No Evil (paperback)",
+            "bookFormat": "https://schema.org/Paperback",
+            "numberOfPages": 321,
+            "datePublished": "2027-01-15",
+            "inLanguage": "en",
+            "author": { "@id": "https://kendrajadeofficial.com/#kendra-jade" },
+            "publisher": { "@id": "https://kendrajadeofficial.com/#krossi-culture" },
+            "offers": {
+              "@type": "Offer",
+              "price": "17.99",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/PreOrder",
+              "availabilityStarts": "2027-01-15",
+              "url": "https://kendrajadeofficial.com/shop/"
+            }
+          }
+        ],
         "genre": [
           "Literary fiction",
           "Visionary and metaphysical fiction"
@@ -89,6 +131,8 @@
         },
         "datePublished": "2027-01-15",
         "numTracks": 13,
+        "genre": ["Rock opera", "Alternative rock"],
+        "albumProductionType": "https://schema.org/StudioAlbum",
         "inLanguage": "en",
         "description": "Thirteen songs from the rock opera soundtrack the novel was adapted from, written and performed by Kendra Jade.",
         "image": "https://kendrajadeofficial.com/images/album.jpg",
@@ -96,7 +140,8 @@
         "albumRelease": {
           "@type": "MusicRelease",
           "name": "Speak No Evil",
-          "datePublished": "2027-01-15"
+          "datePublished": "2027-01-15",
+          "releaseOf": { "@id": "https://kendrajadeofficial.com/#album" }
         }
       },
       {
@@ -152,7 +197,10 @@
         <p class="tagline">She refused heaven to watch him burn. What she found was her voice.</p>
         <p class="date-line">Novel and soundtrack out January 15, 2027.</p>
         <figure class="cover">
-          <img src="images/cover.jpg" width="1600" height="2560" alt="Book cover for Speak No Evil by Kendra Jade: a black-and-white photo of a woman in a black long-sleeve top with her hands over her mouth, and a red NO.">
+          <picture>
+            <source type="image/webp" srcset="images/cover-360.webp 360w, images/cover-540.webp 540w, images/cover-800.webp 800w" sizes="(min-width: 640px) 16.5rem, (max-width: 360px) 13.5rem, 15.5rem">
+            <img src="images/cover-540.jpg" width="540" height="864" fetchpriority="high" alt="Book cover for Speak No Evil by Kendra Jade: a black-and-white photo of a woman in a black long-sleeve top with her hands over her mouth, and a red NO.">
+          </picture>
         </figure>
       </header>
 
@@ -173,7 +221,10 @@
       <section id="album" aria-labelledby="album-title">
         <h2 id="album-title">The soundtrack album</h2>
         <div class="album-block">
-          <img class="album-art" src="images/album.jpg" width="1600" height="1600" alt="Album cover for Speak No Evil by Kendra Jade: a black-and-white photo of a woman in a black long-sleeve top with her hands over her mouth, and a red NO.">
+          <picture>
+            <source type="image/webp" srcset="images/album-200.webp 200w, images/album-400.webp 400w, images/album-600.webp 600w" sizes="12.5rem">
+            <img class="album-art" src="images/album-400.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Album cover for Speak No Evil by Kendra Jade: a black-and-white photo of a woman in a black long-sleeve top with her hands over her mouth, and a red NO.">
+          </picture>
           <div>
             <p>Speak No Evil, the album. Thirteen songs from the rock opera soundtrack the novel was adapted from, written and performed by Kendra Jade. Out January 15, 2027, the same day as the book.</p>
             <p>Tracks 1 and 5 are Explicit.</p>

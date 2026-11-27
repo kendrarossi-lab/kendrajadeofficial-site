@@ -243,9 +243,17 @@ section p {
   gap: 1.15rem;
 }
 
-.album-art {
+picture {
+  display: block;
+}
+
+.album-block picture {
   width: 12.5rem;
   max-width: 70%;
+}
+
+.album-art {
+  width: 100%;
 }
 
 .formats {
