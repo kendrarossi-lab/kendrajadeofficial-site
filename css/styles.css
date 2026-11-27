@@ -318,6 +318,41 @@ picture {
   min-width: 0;
 }
 
+.social {
+  padding: 2rem 0 0.25rem;
+  text-align: center;
+}
+
+.social-title {
+  margin: 0 0 1rem;
+  font-size: 1.35rem;
+}
+
+.social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem 1.25rem;
+}
+
+.social-list a,
+.soon-link {
+  display: inline-block;
+  padding: 0.35rem 0;
+  min-height: 24px;
+}
+
+.soon-link {
+  color: var(--muted);
+}
+
+.disclosure {
+  font-size: 0.85rem;
+}
+
 .site-footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
