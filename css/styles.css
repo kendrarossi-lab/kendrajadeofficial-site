@@ -278,6 +278,38 @@ section p {
   align-items: flex-start;
 }
 
+.buy-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.buy-card {
+  border: 1px solid var(--rule);
+  padding: 1.1rem 1.15rem 1.25rem;
+}
+
+.buy-card h3 {
+  margin: 0 0 0.2rem;
+}
+
+.buy-card .price {
+  margin: 0 0 0.5rem;
+  font-weight: 650;
+  color: var(--fg);
+}
+
+.buy-card .meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 0.9rem;
+}
+
+.buy-card .soon-btn {
+  width: 100%;
+  min-width: 0;
+}
+
 .site-footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
